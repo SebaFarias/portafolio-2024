@@ -12,7 +12,7 @@ export default async function Home() {
 
   return (
     <HydrateClient>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#44DCEA] via-[#41abab] to-[#0868D2] text-white ">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#44DCEA] to-[#002d8a] text-white ">
         
       </main>
     </HydrateClient>
