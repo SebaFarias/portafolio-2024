@@ -1,4 +1,3 @@
-'use client'
 import { OrbitControls } from "@react-three/drei"
 import { useEffect, useRef } from "react";
 import { Mesh } from "three"
@@ -16,7 +15,7 @@ const Scuba = () => {
     <OrbitControls/>
     <mesh ref={meshRef}>
       <boxGeometry/>
-      <meshBasicMaterial/>
+      <meshDepthMaterial/>
     </mesh>
     </>
   )
